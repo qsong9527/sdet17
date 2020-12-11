@@ -19,3 +19,11 @@ if year > 0:
             print(f"{year} 是一个平年")
 else:
      print("公历以前的事情，俺也不知道")
+
+# 补充，如果使用 and 的情况下：
+#if(year % 100 == 0) and (year % 400 == 0):
+#   print(f"{year} 是普通闰年")
+#elif(year % 100 == 0) and (year % 400 == 0):
+#   print(f"{year} 是世纪闰年")
+#else:
+#   print(f"f{year} 不是闰年)
