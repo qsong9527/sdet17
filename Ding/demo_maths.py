@@ -1,2 +1,7 @@
-num1 = int(input("请输入第一个数："))D
-num2 = int(input("请输入第二个数："))
+a = int(input("请输入第一个数："))
+b = int(input("请输入第二个数："))
+print(f"{a} + {b} = {a + b}")
+print(f"{a} - {b} = {a - b}")
+print(f"{a} * {b} = {a * b}")
+print(f"{a} / {b} = {a / b}")
+print(f"{a} % {b} = {a % b}")
