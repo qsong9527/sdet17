@@ -1,5 +1,4 @@
 #  数字大小比较器
-
 num1 = int(input("请输入第一个数字"))
 num2 = int(input("请输入第二个数字"))
 
@@ -13,3 +12,10 @@ else:
       print(f"{num1}比{num2}要大")
     else:
       print(f"{num1}比{num2}要小")
+# 使用if、elif、else的情况
+# if a > b:
+#   print(f"{a} > {b}")
+# elif a < b:
+#   print(f"{a} < {b}")
+# else:
+#   print(f"{a} = {b}")
